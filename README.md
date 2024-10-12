@@ -33,6 +33,8 @@ The message rate graph displays:
 
 The message consumption process operated smoothly with no noticeable delays or bottlenecks. 
 
+![Initial State of Queue](screenshots/initial-state-of-queue.PNG)
+
 ---
 
 ## 3. Performance Analysis
@@ -45,6 +47,10 @@ The message consumption process operated smoothly with no noticeable delays or b
 - **Queue State:** Idle with 0 messages remaining (as shown in the screenshot).
 - **Consumer:** 1 active consumer completed the task.
 - **Consumer Capacity Utilization:** 71%, indicating efficient message processing without overwhelming the consumer.
+
+![Initial State of Queue after sending messages to Queue](screenshots/initial-state-of-queue.PNG)
+![Queue Status after message processing](screenshots/queue-overview.PNG)
+![Consumer Capacity Utilization](screenshots/queue-consumer-overview.PNG)
 
 ---
 
@@ -60,8 +66,3 @@ The RabbitMQ message queue system functioned as expected. The Producer successfu
 The screenshot supports these findings, confirming that RabbitMQ was correctly configured and utilized.
 
 ---
-
-## 5. Attachments
-1. **initial-state-of-queue.PNG** - Initial state of queue after sending messages to queue using producer
-2. **queue-overview.PNG** - Queue status screenshot after message processing
-3. **queue-consumer-overview.PNG** - Consumer Capacity Utilization.
